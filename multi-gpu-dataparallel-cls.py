@@ -190,7 +190,7 @@ class Trainer:
 
 
 class Args:
-    model_path = "model_hub/chinese-bert-wwm-ext"
+    model_path = "hfl/chinese-bert-wwm-ext"
     ckpt_path = "output/multi-gpu-dataparallel-cls.pt"
     max_seq_len = 128
     ratio = 0.92
@@ -201,7 +201,7 @@ class Args:
     learning_rate = 3e-5
     eval_step = 100
     dev = False
-    gpu_ids = [0, 1]
+    gpu_ids = [0, 1,2,3]
 
 
 def main():

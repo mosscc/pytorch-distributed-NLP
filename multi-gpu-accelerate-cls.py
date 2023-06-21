@@ -222,7 +222,7 @@ def build_optimizer(model, args):
     return optimizer
 
 class Args:
-    model_path = "model_hub/chinese-bert-wwm-ext"
+    model_path = "hfl/chinese-bert-wwm-ext"
     ckpt_path = "output/accelerate/multi-gpu-accelerate-cls.pt"
     max_seq_len = 128
     ratio = 0.92
